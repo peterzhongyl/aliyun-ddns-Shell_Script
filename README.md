@@ -1,20 +1,24 @@
 # aliyun-ddns-Shell_Script
 
-°¢ÀïÔÆDDNS½âÎöShell Script
-°æ±¾
+é˜¿é‡Œäº‘DDNSè§£æShell Script
+ç‰ˆæœ¬
 
-×¼±¸Ìõ¼ş£º°¢ÀïÔÆ±ØĞëÏÈÂò¸öÓòÃû£¨Ä¿Ç°.win×î±ãÒË£©
+å‡†å¤‡æ¡ä»¶ï¼šé˜¿é‡Œäº‘å¿…é¡»å…ˆä¹°ä¸ªåŸŸåï¼ˆç›®å‰.winæœ€ä¾¿å®œï¼‰
 
-ÔËĞĞ»·¾³£º
-curl¡¢openssl¡¢jq£¨½âÎöJSONÊı¾İ£©
+è¿è¡Œç¯å¢ƒï¼š
+curlã€opensslã€jqï¼ˆè§£æJSONæ•°æ®ï¼‰
+yum install epel-release
+yum install curl
+yum install openssl*
+yum install jq
 
-ÅäÖÃ²ÎÊı£ºaliddns.shÖĞ
+é…ç½®å‚æ•°ï¼šaliddns.shä¸­
 
-#Ö÷»úÃûÊı×é
+#ä¸»æœºåæ•°ç»„
 RRs=("home @ www")
-#°¢ÀïÔÆÓòÃû
-DomainName="±ØĞëÉèÖÃ.win"
+#é˜¿é‡Œäº‘åŸŸå
+DomainName="å¿…é¡»è®¾ç½®.win"
 #Access Key Id
-AccessKeyId="±ØĞëÉèÖÃ"
+AccessKeyId="å¿…é¡»è®¾ç½®"
 #Access Key Secret
-AccessKeySecret="±ØĞëÉèÖÃ"
+AccessKeySecret="å¿…é¡»è®¾ç½®"
